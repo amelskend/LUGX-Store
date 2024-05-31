@@ -1,0 +1,21 @@
+.body {
+    margin: 0;
+}
+.header {
+    background-color: rgb(195, 181, 199);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+.logo {
+    width: 100px;
+}
+.header-links a {
+    color: white;
+}
+.header-links a:hover {
+    color: #aa79a4;
+    padding: 0 15px;
+    text-decoration: none;
+}
