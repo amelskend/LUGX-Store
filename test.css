@@ -13,9 +13,48 @@
 }
 .header-links a {
     color: white;
+    padding: 0 15px;
+    text-decoration: none;
 }
 .header-links a:hover {
     color: #aa79a4;
-    padding: 0 15px;
-    text-decoration: none;
+}
+.btn {
+    background-color:  rgb(91, 50, 102);
+    border-radius: 15px;
+    padding: 5px 15px;
+    color: white;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #aa79a4;
+}
+.landing-page {
+    background-color: rgb(195, 181, 199);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    color: white;
+    border-radius: 0 0 50px 50px;
+}
+.landing-page-left-section {
+    width: 500px;
+}
+.landing-page-search input{
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 30px;
+    padding: 0 10px;
+} 
+.landing-page-search button{
+    position: absolute;
+    left: 190px;
+    height: 30px;
+}
+.landing-page-image-container img {
+    border-radius: 20px;
+    width: 250px;
 }
